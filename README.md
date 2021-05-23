@@ -15,6 +15,6 @@ main1.py：训练的代码参考这个文件train()吧。。这部分最新版�
 
 ## 3.预测
 test_lqa.py：在lifeqa上的预测。    
-test_tvqa.py：在TVQA+上的预测。  
+test_tvqa.py：在TVQA+上的预测。模型结构的代码也看这个。  
 
-ps：实际上最终就是模型结构的代码，直接看test_tvqa.py里的BiNet就可以。
+ps：实际上最重要的就是模型结构的代码，直接看test_tvqa.py里的BiNet就可以。
