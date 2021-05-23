@@ -12,5 +12,5 @@ preprocess.py: 本来是打算用来预处理视频，用yolo提取视觉对象�
 main1.py：参考这个吧。。这部分最新版的代码没了orz。。
 
 ## 3.预测
-test_lqa.py：在lifeqa上的预测。
+test_lqa.py：在lifeqa上的预测。    
 test_tvqa.py：在TVQA+上的预测。
