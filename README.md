@@ -7,8 +7,9 @@ preprocess.py: 本来是打算用来预处理视频，用yolo提取视觉对象�
 （1）real_extract_features_att.py: 提取特征     
 （2）extract_tvqa_gt_features.py：提取使用了GT时间的TVQA+的特征      
 （3）new_extract_features_q.py: 也是提取特征，后来想添加一个字段所以重新提取了一遍，所以这个和（1）有一点点不同。    
-  
-* 代码里的old_tvqa实际上就表示TVQA数据集，关于这一部分的方法可以全部忽略。因为最后并没有用到。。  
+ 
+* 特征提取包含了读取数据集、将其转换成BERT所需的输入格式、输入BERT。
+* 代码里的old_tvqa实际上就表示TVQA数据集，关于这一部分的方法可以全部忽略。因为最后并没有用到。。只做了在TVQA+上的实验。 
 
 ## 2.模型训练
 main1.py：训练的代码参考这个文件train()吧。。这部分最新版的代码没了orz。。   
